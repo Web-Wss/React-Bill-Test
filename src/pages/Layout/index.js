@@ -4,11 +4,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { getBillList } from "@/store/modules/billStore";
 import "./index.scss";
-import {
-  BillOutline,
-  CalculatorOutline,
-  AddCircleOutline,
-} from "antd-mobile-icons";
+import { BillOutline, AddCircleOutline } from "antd-mobile-icons";
 
 const tabs = [
   {
@@ -20,11 +16,6 @@ const tabs = [
     key: "/new",
     title: "记账",
     icon: <AddCircleOutline />,
-  },
-  {
-    key: "/year",
-    title: "年度账单",
-    icon: <CalculatorOutline />,
   },
 ];
 

@@ -3,7 +3,6 @@
 import Layout from "@/pages/Layout";
 import Month from "@/pages/Month";
 import New from "@/pages/New";
-import Year from "@/pages/Year";
 import { createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -15,10 +14,6 @@ const router = createBrowserRouter([
         // path: "month",
         index: true,
         element: <Month />,
-      },
-      {
-        path: "year",
-        element: <Year />,
       },
     ],
   },
