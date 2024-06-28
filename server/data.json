@@ -83,6 +83,33 @@
       "date": "2023-04-03T11:14:56.036Z",
       "useFor": "food",
       "id": 19
+    },
+    {
+      "id": "5fda",
+      "type": "pay",
+      "money": -10,
+      "date": "2024-06-28T07:56:12.112Z",
+      "useFor": "taxi"
+    },
+    {
+      "id": "c295",
+      "type": "income",
+      "money": 9000,
+      "date": "2024-06-24T16:00:00.000Z",
+      "useFor": "salary"
+    },
+    {
+      "id": "f6b9",
+      "type": "pay",
+      "money": -10,
+      "useFor": "drinks"
+    },
+    {
+      "id": "d090",
+      "type": "pay",
+      "money": -1230,
+      "date": "2024-06-27T16:00:00.000Z",
+      "useFor": "drinks"
     }
   ]
 }
